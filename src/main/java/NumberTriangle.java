@@ -98,7 +98,6 @@ public class NumberTriangle {
             if (ch == 'l') return this.left.retrieve(path.substring(1));
             else return this.right.retrieve(path.substring(1));
         }
-
     }
 
     /** Read in the NumberTriangle structure from a file.
